@@ -1,0 +1,27 @@
+div {
+    position: relative;
+}
+.landing-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.1s;
+    container: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.landing-button:hover {
+    background-color: #45a049;
+    color: white;
+}
